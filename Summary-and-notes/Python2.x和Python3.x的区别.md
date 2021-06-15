@@ -101,7 +101,7 @@ python3 新增了二进制序列类型bytes。bytes 对象是由单个字节构�
 
 ### 返回迭代器
 
-**map、filter 和 reduce **等高阶函数返回值的类型由列表改为迭代器，另外reduce函数在 Python 3.x 中已经不属于 built-in 了，被挪到 functools 模块当中。
+**map、filter 和 reduce**等高阶函数返回值的类型由列表改为迭代器，另外reduce函数在 Python 3.x 中已经不属于 built-in 了，被挪到 functools 模块当中。
 
 ### 返回视图对象
 
