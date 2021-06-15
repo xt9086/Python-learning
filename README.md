@@ -4,7 +4,7 @@
 
 ## 目录
 
-### [总结和笔记](./Notes-on-Python-Basics/)
+### [总结和笔记](./Summary-and-notes/)
 
 ### [小练习](./Practice/)
 
