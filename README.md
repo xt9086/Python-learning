@@ -1,6 +1,6 @@
 # Python-learning
 
-分享Python学习过程的笔记、总结和练习等
+分享 Python 学习过程的笔记、总结和练习等
 
 ## 目录
 
