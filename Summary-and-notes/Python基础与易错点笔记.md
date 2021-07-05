@@ -108,16 +108,18 @@
 
 ### 排序
 
-使用使用`sort()`方法按特定规则排序会永久性地改变原来的值，参数`reverse=True`时倒序排列。它可以传入参数 key，key 是函数,会对传入的 list 进行处理，按处理后的结果进行比较。
+1. 使用`sort()`方法排序会直接修改原来的值，并不返回新值。参数`reverse=True`时倒序排列。它可以传入参数 key，key 是函数,会对传入的 list 进行处理，按处理后的结果进行比较。
 
-```python
-# str.lower是指str类的lower方法，此时作为参数传的是方法名，切记不能带括号
-seq_list = sorted(['bob', 'about', 'Zoo', 'Credit'], key=str.lower, reverse=True)
-print(seq_list)
-# ['Zoo', 'Credit', 'bob', 'about']
-```
+2. 调用`sorted()`函数排序不会改变原对象，而是返回一个经过排序的新对象，其它地方与`sort()`方法类似。
 
-使用`reverse()`方法可得到仅逆转原来顺序并不按规则排序的列表，原来的值会永久性改变，但可再次调用`reverse()`方法恢复。
+   ```python
+   # str.lower是指str类的lower方法，此时作为参数传的是方法名，切记不能带括号
+   seq_list = sorted(['bob', 'about', 'Zoo', 'Credit'], key=str.lower, reverse=True)
+   print(seq_list)
+   # ['Zoo', 'Credit', 'bob', 'about']
+   ```
+
+3. 使用`reverse()`方法可得到仅逆转原来顺序并不按规则排序的列表，原来的值会永久性改变，但可再次调用`reverse()`方法恢复。
 
 ## range 函数
 
